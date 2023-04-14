@@ -1,0 +1,43 @@
+body{
+    padding: 0%;
+    margin: 0%;
+}
+.main{
+    height: 100vh;
+    width: 100%;
+    
+    background-image: url("/images/IMG_20220919_162442.jpg");
+}
+.overlay{
+    height: 100%;
+    width: 100%;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+}
+.title{
+    text-align: center;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 2.5rem;
+    padding: 10px;
+}
+.col{
+    width: 1000px;
+    height: 100px;
+  
+    margin: 10px auto;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+input{
+   
+    height: 50px;
+    width: 50%;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 7px;
+    text-align: center;
+    font-size: 20px;
+}
